@@ -1,0 +1,37 @@
+# .gitignore
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+env/
+.venv/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore data files (if they are large or sensitive)
+data/raw/
+data/processed/
+data/external/
+
+# Ignore logs
+logs/
+
+# Ignore model files (if they are large)
+models/
+
+# Ignore reports (if they are generated)
+reports/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
